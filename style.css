@@ -100,3 +100,90 @@ button:hover{
     background:#1b73ff;
     color:#fff;
 }
+
+
+
+
+
+
+
+.footer{
+    background:#0f172a;
+    color:#fff;
+    padding:50px 8% 25px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.footer-logo h2{
+    font-size:30px;
+    font-weight:700;
+}
+
+.footer-logo span{
+    color:#3b82f6;
+}
+
+.footer-social{
+    display:flex;
+    gap:15px;
+}
+
+.footer-social a{
+    width:45px;
+    height:45px;
+    background:#1e293b;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:18px;
+    transition:.3s ease;
+}
+
+.footer-social a:hover{
+    background:#2563eb;
+    transform:translateY(-5px);
+}
+
+.footer hr{
+    border:none;
+    height:1px;
+    background:rgba(255,255,255,.15);
+    margin:35px 0 20px;
+}
+
+.footer-bottom{
+    text-align:center;
+}
+
+.footer-bottom p{
+    color:#cbd5e1;
+    font-size:15px;
+    letter-spacing:.3px;
+}
+
+@media(max-width:768px){
+
+.footer-top{
+    flex-direction:column;
+    text-align:center;
+}
+
+.footer-social{
+    justify-content:center;
+}
+
+.footer-logo h2{
+    font-size:26px;
+}
+
+}
