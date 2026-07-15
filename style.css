@@ -11,6 +11,7 @@
     background-color: #f5f6f9;
     align-items: center;
     padding: 6px 6%;
+    max-width: 1200px;
   
   }
 .ul{
@@ -25,7 +26,7 @@
     color: aliceblue;
     border-radius: 8px;
     text size: 5px;
-    cursor: pointer;
+  cursor: pointer;
     width: 150px;
     
 }
@@ -46,22 +47,6 @@ display:flex;
     line-height:1.5;
     margin-bottom:35px;
 }
-
-
-
-
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    font-family:Arial, sans-serif;
-    background:#fff;
-}
-
 .speakers{
     width:80%;
     margin:80px auto;
@@ -105,19 +90,6 @@ body{
     font-size:16px;
     line-height:1.5;
 }
-
-
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:Arial,sans-serif;
-}
-
-body{
-  background:#fff;
-}
-
 .pricing{
   width:90%;
   margin:80px auto;
@@ -182,14 +154,6 @@ button{
   color:#fff;
   border:none;
 }
-
-
-
-
-
-
-
-
 .footer{
     background:#0f172a;
     color:#fff;
@@ -226,7 +190,7 @@ button{
     display:flex;
     align-items:center;
     justify-content:center;
-    border-radius:50%;
+    border-radius:60%;
     text-decoration:none;
     font-size:18px;
     transition:.3s ease;
@@ -253,5 +217,14 @@ button{
     font-size:15px;
     letter-spacing:.3px;
 }
+
+
+
+
+
+
+
+
+
 
 
