@@ -35,7 +35,7 @@
 .hero{
     width: 100%;
     height: 100vh;
-background: url(./B14-A01-DevConf-2026/assets/banner.jpg);
+background: url(./assets/banner.jpg);
 display:flex;
     justify-content:center;
     align-items:center;
